@@ -48,10 +48,10 @@ def load_model_and_stats():
             return self.output_layer(x)
 
     try:
-        checkpoint = torch.load('best_trajectory_model.pth', map_location=device)
+        checkpoint = torch.load('assignment-4/best_trajectory_model.pth', map_location=device)
 
         # Load training data for normalization stats
-        with open('train_dataset.pkl', 'rb') as f:
+        with open('assignment-4/train_dataset.pkl', 'rb') as f:
             train_data = pickle.load(f)
 
         # Get normalization stats
