@@ -136,7 +136,7 @@ The validation loss consistently remains below the training loss because dropout
 
 ### Optimized Trajectory Examples
 
-![Optimized Trajectories](optimized_trajectories.png)
+![Optimized Trajectories](predictions.png)
 
 ### Prediction Accuracy
 
